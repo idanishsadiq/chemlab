@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chemical RuleBook | ChemLab</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=League+Spartan:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="index.html">
+          <img src="Logo.png" alt="ChemLab logo">
+          <div class="brand-text">
+            <strong>ChemLab</strong>
+            <span>Chemical RuleBook</span>
+          </div>
+        </a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="app.html">Reaction Lab</a>
+          <a href="rulebook.html">RuleBook</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="home-page" class="view">
+        <header class="app-header">
+          <h1>Chemical RuleBook</h1>
+          <p>Select any rule to see how it applies</p>
+        </header>
+
+        <div id="element-grid" class="grid"></div>
+
+        <div class="dock">
+          <button id="combine-btn" disabled>View Rule</button>
+        </div>
+      </section>
+
+      <section id="result-page" class="view hidden">
+        <div class="result-card">
+          <button class="back-btn" onclick="goToHome()">← Back to RuleBook</button>
+          <h2 id="reaction-name"></h2>
+
+          <div class="info-section">
+            <h3>Theory</h3>
+            <p id="formula-text"></p>
+
+            <h3 style="margin-top: 1.5rem;">Example 1</h3>
+            <div class="formula-display" style="font-size: 1.1rem; padding: 1rem 1.5rem; margin-bottom: 0.75rem;">
+              <span id="ex1-formula"></span>
+            </div>
+            <p id="reaction-info"></p>
+
+            <h3 style="margin-top: 1.5rem;">Example 2</h3>
+            <div class="formula-display" style="font-size: 1.1rem; padding: 1rem 1.5rem; margin-bottom: 0.75rem;">
+              <span id="ex2-formula"></span>
+            </div>
+            <p id="reaction-fact"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div>
+          <h2>Contact ChemLab</h2>
+          <p>Email: <a href="mailto:chemlab.business@gmail.com">chemlab.business@gmail.com</a></p>
+          <p>Instagram: <a href="https://www.instagram.com/ig.chemlab" target="_blank" rel="noopener noreferrer">ig.chemlab</a></p>
+        </div>
+        <div class="footer-meta">
+          <strong>© <span id="year"></span> ChemLab</strong>
+          <div class="small-note">All rights reserved. Built for chemistry learners.</div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="rulebook.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
