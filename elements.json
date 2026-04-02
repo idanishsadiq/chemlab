@@ -309,7 +309,7 @@
       "fact": "In the presence of a strong base (like KOH or sodium alkoxide), an alcohol adds to an alkyne to form a vinyl ether."
     },
     "alkyne-phenol": {
-      "name": "Amine Oxidation",
+      "name": "Phenol Vinylation",
       "formula": "R-C≡C-H + C₆H₅OH → C₆H₆-O-C(R)=CH₂",
       "info": "The reaction between phenol and an alkyne is a specific type of nucleophilic addition known as vinylation. Because phenol has a nucleophilic hydroxyl group (OH), it can add across the triple bond of an alkyne to form aryl vinyl ethers. In the presence of a strong base such as potassium hydroxide (KOH) or an alkali metal phenoxide, phenol reacts with an alkyne (often acetylene) to produce a vinyl ether.",
       "fact": "The base deprotonates the phenol to form a phenoxide ion (C₆H₅O-)."
