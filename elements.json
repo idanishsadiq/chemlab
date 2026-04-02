@@ -96,361 +96,1661 @@
       "name": "Ester Formation",
       "formula": "R-COCl + R'-OH → R-COOR' + HCl",
       "info": "When an acyl chloride reacts with an alcohol, the chlorine atom is replaced by the alkoxy group (-OR) from the alcohol. A byproduct of hydrogen chloride (HCl) gas is produced, which often appears as white misty fumes.",
-      "fact": "Unlike the reaction between a carboxylic acid and alcohol, this does not require an acid catalyst or heating. This reaction is exothermic and produces HCl gas."
+      "fact": "Unlike the reaction between a carboxylic acid and alcohol, this does not require an acid catalyst or heating. This reaction is exothermic and produces HCl gas.",
+      "conditions": "Anhydrous setup, often 0–25°C, commonly with base (pyridine/triethylamine) to capture HCl formed during acyl substitution.",
+      "mechanism": "Alcohol oxygen attacks acyl chloride carbonyl, forming tetrahedral intermediate; chloride leaves and proton transfer yields ester.",
+      "applications": "Fast ester synthesis in medicinal chemistry and protecting-group strategies.",
+      "safety": "Acyl chlorides fume in moist air and release HCl; strict dry handling and hood use are essential.",
+      "common_mistakes": [
+        "Assuming strong heating is required like Fischer esterification.",
+        "Ignoring HCl scavenger/base requirement.",
+        "Using wet solvents that hydrolyze acyl chloride."
+      ],
+      "revision_checklist": [
+        "Identify nucleophilic acyl substitution pathway.",
+        "Show chloride as leaving group.",
+        "Include HCl byproduct and base neutralization role."
+      ]
     },
     "acyl_cl-benzene": {
       "name": "Friedel-Crafts Acylation",
       "formula": "C₆H₆ + R-COCl → C₆H₅COR + HCl",
       "info": "Benzene reacts with an acyl chloride in the presence of a Lewis acid catalyst, typically aluminum chloride (AlCl₃). The chlorine atom is replaced by the benzene ring, and hydrogen chloride (HCl) is evolved as a byproduct.",
-      "fact": "Unlike many organic reactions that exist in an equilibrium, Friedel-Crafts acylation is essentially irreversible."
+      "fact": "Unlike many organic reactions that exist in an equilibrium, Friedel-Crafts acylation is essentially irreversible.",
+      "conditions": "Anhydrous conditions with a Lewis acid catalyst (often AlCl₃/FeCl₃), controlled addition, and temperature control are usually required.",
+      "mechanism": "Most acyl-derivative transformations follow nucleophilic acyl substitution: nucleophile attack, tetrahedral intermediate, then leaving-group departure.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where friedel-crafts acylation-type reactivity is exploited.",
+      "safety": "Acyl chlorides are moisture-sensitive and release HCl fumes; use dry apparatus, gloves, goggles, and a well-functioning fume hood.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "acyl_cl-ether": {
       "name": "Ether Cleavage",
       "formula": "R-OR' + R''-COCl → R''-COOR + R'-Cl",
       "info": "The most common catalyst used for this transformation is zinc chloride (ZnCl_2), though other Lewis acids like AlCl_3 can also be used.",
-      "fact": "This reaction is used to identify unknown ethers."
+      "fact": "This reaction is used to identify unknown ethers.",
+      "conditions": "Run under dry conditions with base (e.g., pyridine/triethylamine) to neutralize HCl and suppress side reactions.",
+      "mechanism": "Most acyl-derivative transformations follow nucleophilic acyl substitution: nucleophile attack, tetrahedral intermediate, then leaving-group departure.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where ether cleavage-type reactivity is exploited.",
+      "safety": "Acyl chlorides are moisture-sensitive and release HCl fumes; use dry apparatus, gloves, goggles, and a well-functioning fume hood.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "acyl_cl-phenol": {
       "name": "Phenol Acylation",
       "formula": "C₆H₅OH + R-COCl → C₆H₅OOCR + HCl",
       "info": "When phenol reacts with an acyl chloride (such as ethanoyl chloride), the hydroxyl group (OH) of the phenol attacks the carbonyl carbon of the acyl chloride.Sodium Hydroxide converts phenol into the phenoxide ion (C₆H₅O-). The phenoxide ion is a much stronger nucleophile than neutral phenol, making the reaction significantly faster.",
-      "fact": "Usually performed at room temperature, though gentle heating may be used depending on the specific acyl chloride."
+      "fact": "Usually performed at room temperature, though gentle heating may be used depending on the specific acyl chloride.",
+      "conditions": "Run under dry conditions with base (e.g., pyridine/triethylamine) to neutralize HCl and suppress side reactions.",
+      "mechanism": "Most acyl-derivative transformations follow nucleophilic acyl substitution: nucleophile attack, tetrahedral intermediate, then leaving-group departure.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where phenol acylation-type reactivity is exploited.",
+      "safety": "Acyl chlorides are moisture-sensitive and release HCl fumes; use dry apparatus, gloves, goggles, and a well-functioning fume hood.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alcohol-alkene": {
       "name": "Alkene Alcohol Addition",
       "formula": "R-CH=CH₂ + R'-OH → R-CH(OR')-CH₃",
       "info": "The reaction between an alcohol and an alkene is a common method for synthesizing ethers. This process is known as alkoxylation or, more specifically, the acid-catalyzed addition of alcohols to alkenes.In the presence of a strong acid catalyst (H₂SO₄, H₃PO₄), the alcohol adds across the double bond of the alkene.",
-      "fact": "This is an electrophilic addition reaction following Markovnikov's rule."
+      "fact": "This is an electrophilic addition reaction following Markovnikov's rule.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where alkene alcohol addition-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alcohol-carboxylic_acid": {
       "name": "Esterification",
       "formula": "R-OH + R'-COOH → R'-COOR + H₂O",
       "info": "The reaction between a carboxylic acid and an alcohol is a classic organic transformation known as Fischer Esterification. It is a reversible, acid-catalyzed condensation reaction that produces an ester and water.",
-      "fact": "Fischer esterification is reversible and reaches equilibrium."
+      "fact": "Fischer esterification is reversible and reaches equilibrium.",
+      "conditions": "Conc. H₂SO₄ or p-TsOH catalyst with heating/reflux; water removal (Dean–Stark or molecular sieves) improves ester yield.",
+      "mechanism": "Acid-catalyzed nucleophilic addition-elimination at the carboxyl carbonyl through a tetrahedral intermediate, followed by dehydration and catalyst regeneration.",
+      "applications": "Core method for fragrance, flavor, solvent, and polymer precursor synthesis.",
+      "safety": "Strong acids are corrosive and reactions are often heated; add acid carefully and use reflux setup with proper venting.",
+      "common_mistakes": [
+        "Treating Fischer esterification as irreversible.",
+        "Not accounting for equilibrium shift strategies.",
+        "Forgetting acid catalyst regeneration in mechanism steps."
+      ],
+      "revision_checklist": [
+        "State catalyst and heating requirements.",
+        "Mention reversible equilibrium explicitly.",
+        "Explain one method to drive product formation (remove water/use excess reactant)."
+      ]
     },
     "alcohol-oxidation": {
       "name": "Alcohol Oxidation",
       "formula": "R-CH₂OH + KMnO₄ → R-COOH",
       "info": "The oxidation of alcohols is a fundamental transformation in organic chemistry, where the carbon-oxygen (C-O) bond is converted into a carbon-oxygen double bond (C=O).",
-      "fact": "Secondary alcohols are oxidized to ketones. Tertiary alcohols do not undergo oxidation under standard conditions."
+      "fact": "Secondary alcohols are oxidized to ketones. Tertiary alcohols do not undergo oxidation under standard conditions.",
+      "conditions": "Select oxidant strength and solvent carefully (e.g., KMnO₄, dichromate, PCC, peracids) while controlling temperature to avoid over-oxidation.",
+      "mechanism": "Oxidation increases oxidation state via oxygen insertion, dehydrogenation, or oxidative cleavage depending on reagent strength and substrate class.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where alcohol oxidation-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alkane-halogen": {
       "name": "Alkane Halogenation",
       "formula": "R-H + X₂ → R-X + HX",
       "info": "Alkane halogenation is a free-radical substitution reaction where one or more hydrogen atoms in an alkane are replaced by halogen atoms (typically chlorine or bromine). This reaction is the primary way to convert relatively unreactive alkanes into more versatile haloalkanes.",
-      "fact": "It requires UV light or high temperatures (around 300°C) to provide the activation energy needed to break the halogen-halogen bond."
+      "fact": "It requires UV light or high temperatures (around 300°C) to provide the activation energy needed to break the halogen-halogen bond.",
+      "conditions": "Typical conditions vary by substrate: alkenes/alkynes react at room temperature in inert solvent; alkanes usually need UV light or heat for radical substitution.",
+      "mechanism": "Typically proceeds by electrophilic addition (alkenes/alkynes), electrophilic aromatic substitution (arenes), or free-radical substitution (alkanes), depending on the substrate.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where alkane halogenation-type reactivity is exploited.",
+      "safety": "Halogens and hydrogen halides are corrosive/irritant; handle in a fume hood and quench residues with approved neutralization protocols.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alkene-carboxylic_acid": {
       "name": "Alkene Carboxylic Acid Addition",
       "formula": "R-CH=CH₂ + R'-COOH → R-CH(OCOR')-CH₃",
       "info": "The reaction between an alkene and a carboxylic acid is known as hydro-alkoxyaddition. Similar to the reaction with alcohols, this process produces an ester, but it proceeds via the addition of the acid across the double bond of the alkene.",
-      "fact": "This is a useful alternative to Fischer esterification because it does not produce water as a byproduct, making the reaction atom-economical."
+      "fact": "This is a useful alternative to Fischer esterification because it does not produce water as a byproduct, making the reaction atom-economical.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where alkene carboxylic acid addition-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alkene-halogen": {
       "name": "Alkene Halogenation",
       "formula": "R-CH=CH₂ + X₂ → R-CHX-CH₂X",
       "info": "The reaction between an alkene and a halogen (Cl or Br) is an electrophilic addition reaction. It is a fundamental way to synthesize vicinal dihalides (compounds where two halogen atoms are attached to adjacent carbons).",
-      "fact": "Unlike alkanes, alkenes do not require UV light for this reaction; it happens readily at room temperature because the pi bond is electron-rich and easily attacked."
+      "fact": "Unlike alkanes, alkenes do not require UV light for this reaction; it happens readily at room temperature because the pi bond is electron-rich and easily attacked.",
+      "conditions": "Usually run at room temperature in CCl₄ or CH₂Cl₂ (dark conditions for ionic addition), often with Br₂ test solution for quick unsaturation checks.",
+      "mechanism": "The π bond attacks X₂ to form a cyclic halonium ion intermediate, then backside attack by X⁻ opens the ring, giving anti-addition products.",
+      "applications": "Used to prepare vicinal dihalides and to map alkene stereochemistry in synthesis routes and mechanism problems.",
+      "safety": "Bromine/chlorine are highly corrosive and volatile; use gloves, splash protection, and fume-hood handling at all times.",
+      "common_mistakes": [
+        "Predicting free-radical substitution instead of electrophilic addition for alkenes under normal conditions.",
+        "Forgetting anti addition from halonium-ion opening.",
+        "Ignoring possible stereochemical outcomes in cyclic substrates."
+      ],
+      "revision_checklist": [
+        "Draw the halonium ion intermediate.",
+        "Apply anti attack of halide nucleophile.",
+        "Check if meso/racemic outcomes are possible."
+      ]
     },
     "alkene-reduction": {
       "name": "Alkene Reduction",
       "formula": "R-CH=CH-R' + H₂ → R-CH₂-CH₂-R'",
       "info": "Alkene reduction, commonly known as catalytic hydrogenation, is the process of adding hydrogen (H₂) across a carbon-carbon double bond to form an alkane. This reaction is essential in both laboratory synthesis and industrial processes, such as the production of margarine from vegetable oils.",
-      "fact": "This reaction is used in the food industry to make margarine."
+      "fact": "This reaction is used in the food industry to make margarine.",
+      "conditions": "H₂ gas with Pd/C, Pt, or Ni catalyst under atmospheric to moderate pressure depending on substrate and scale.",
+      "mechanism": "Syn addition of hydrogen occurs on catalyst surface after alkene adsorption, then product desorbs as alkane.",
+      "applications": "Widely used for alkene saturation in petrochemicals, pharmaceuticals, and food/oil processing.",
+      "safety": "Hydrogen is flammable and catalysts can ignite when dry; avoid ignition sources and follow catalyst handling guidance.",
+      "common_mistakes": [
+        "Forgetting that catalytic hydrogenation is syn addition.",
+        "Assuming isolated aromatic rings hydrogenate under very mild conditions.",
+        "Neglecting catalyst poisoning effects from sulfur/amine impurities."
+      ],
+      "revision_checklist": [
+        "Name the catalyst used.",
+        "State syn addition outcome.",
+        "Check if competing reducible groups are present."
+      ]
     },
     "alkyne-halogen": {
       "name": "Alkyne Halogenation",
       "formula": "R-C≡CH + X₂ → R-CX₂-CHX₂",
       "info": "Alkyne halogenation is an electrophilic addition reaction where halogens (Cl₂ or Br₂) add across the triple bond. Because an alkyne has two pi bonds, the reaction can occur in two stages: first forming a dihaloalkene and then a tetrahaloalkane.",
-      "fact": "Terminal alkynes can be distinguished from internal ones."
+      "fact": "Terminal alkynes can be distinguished from internal ones.",
+      "conditions": "Typical conditions vary by substrate: alkenes/alkynes react at room temperature in inert solvent; alkanes usually need UV light or heat for radical substitution.",
+      "mechanism": "Typically proceeds by electrophilic addition (alkenes/alkynes), electrophilic aromatic substitution (arenes), or free-radical substitution (alkanes), depending on the substrate.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where alkyne halogenation-type reactivity is exploited.",
+      "safety": "Halogens and hydrogen halides are corrosive/irritant; handle in a fume hood and quench residues with approved neutralization protocols.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alkyne-oxidation": {
       "name": "Alkyne Hydration",
       "formula": "R-C≡CH + H₂O → R-CO-CH₃",
       "info": "The oxidation of alkynes involves breaking the carbon-carbon triple bond to form oxygen-containing functional groups. The outcome of the reaction depends heavily on whether you are using mild or strong oxidizing agents.",
-      "fact": "This follows Markovnikov's rule."
+      "fact": "This follows Markovnikov's rule.",
+      "conditions": "Select oxidant strength and solvent carefully (e.g., KMnO₄, dichromate, PCC, peracids) while controlling temperature to avoid over-oxidation.",
+      "mechanism": "Water adds across unsaturation through electrophilic activation and rearrangement/tautomerization where relevant.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where alkyne hydration-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "acyl_cl-amine": {
       "name": "Amide Formation",
       "formula": "R-NH₂ + R'-COCl → R'-CONHR + HCl",
       "info": "The reaction between an amine and an acyl chloride is a rapid and vigorous process that forms an amide. This is a type of nucleophilic acyl substitution and is one of the most efficient ways to synthesize amides in the laboratory.",
-      "fact": "This reaction is used in peptide synthesis."
+      "fact": "This reaction is used in peptide synthesis.",
+      "conditions": "Run under dry conditions with base (e.g., pyridine/triethylamine) to neutralize HCl and suppress side reactions.",
+      "mechanism": "Most acyl-derivative transformations follow nucleophilic acyl substitution: nucleophile attack, tetrahedral intermediate, then leaving-group departure.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where amide formation-type reactivity is exploited.",
+      "safety": "Acyl chlorides are moisture-sensitive and release HCl fumes; use dry apparatus, gloves, goggles, and a well-functioning fume hood.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "amine-carboxylic_acid": {
       "name": "Ammonium Salt Formation",
       "formula": "R-COOH + R'-NH₂ → R-COO⁻ ⁺NH₃R'",
       "info": "The reaction between an acyl chloride and a carboxylic acid is a common method used to synthesize acid anhydrides. This is a nucleophilic acyl substitution reaction where the carboxylic acid acts as the nucleophile.",
-      "fact": "This is the first step in amide formation."
+      "fact": "This is the first step in amide formation.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where ammonium salt formation-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "benzene-halogen": {
       "name": "Benzene Halogenation",
       "formula": "C₆H₆ + X₂ → C₆H₅X + HX",
       "info": "Benzene halogenation is an electrophilic aromatic substitution (EAS) reaction. Unlike alkenes, benzene does not react with halogens under normal conditions because its delocalized pi system is exceptionally stable. To overcome this stability, a Lewis acid catalyst is required to generate a stronger electrophile.",
-      "fact": "Benzene reacts with halogens using FeX₃ catalyst"
+      "fact": "Benzene reacts with halogens using FeX₃ catalyst",
+      "conditions": "Typical conditions vary by substrate: alkenes/alkynes react at room temperature in inert solvent; alkanes usually need UV light or heat for radical substitution.",
+      "mechanism": "Typically proceeds by electrophilic addition (alkenes/alkynes), electrophilic aromatic substitution (arenes), or free-radical substitution (alkanes), depending on the substrate.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where benzene halogenation-type reactivity is exploited.",
+      "safety": "Halogens and hydrogen halides are corrosive/irritant; handle in a fume hood and quench residues with approved neutralization protocols.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "benzene-nitro": {
       "name": "Benzene Nitration",
       "formula": "C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O",
       "info": "Benzene nitration is a classic example of electrophilic aromatic substitution (EAS). In this reaction, a nitro group (NO₂) replaces a hydrogen atom on the benzene ring. Because the benzene ring is so stable due to its aromaticity, it requires a very powerful electrophile—the nitronium ion (NO²+) to react.",
-      "fact": "Nitration is the first step in making explosives like TNT."
+      "fact": "Nitration is the first step in making explosives like TNT.",
+      "conditions": "Mixed acid (conc. HNO₃/H₂SO₄), typically 40–60°C for mononitration; careful temperature control prevents over-nitration.",
+      "mechanism": "H₂SO₄ generates nitronium ion (NO₂⁺); benzene undergoes electrophilic aromatic substitution via σ-complex then deprotonation.",
+      "applications": "Industrial entry point to aniline, dyes, agrochemicals, and energetic-material intermediates.",
+      "safety": "Nitration is strongly exothermic with corrosive acids; keep cooling in place and add reagents slowly.",
+      "common_mistakes": [
+        "Drawing direct NO₂ attack without nitronium generation.",
+        "Ignoring aromaticity restoration step.",
+        "Assuming conditions are mild and room-temperature safe."
+      ],
+      "revision_checklist": [
+        "Write nitronium generation step.",
+        "Draw σ-complex intermediate.",
+        "Show deprotonation restoring aromaticity."
+      ]
     },
     "carboxylic_acid-reduction": {
       "name": "Carboxylic Acid Reduction",
       "formula": "R-COOH + LiAlH₄ → R-CH₂OH",
       "info": "The reduction of a carboxylic acid is a process that decreases the oxidation state of the carbonyl carbon, typically converting the acid into a primary alcohol. This is a relatively difficult transformation because the carboxylic acid group is resistant to many common reducing agents.",
-      "fact": "This reagent is powerful and reacts violently with water."
+      "fact": "This reagent is powerful and reacts violently with water.",
+      "conditions": "Use a suitable reducing system (e.g., H₂/metal catalyst, LiAlH₄, or Sn/HCl) under dry, controlled conditions chosen for chemoselectivity.",
+      "mechanism": "Reduction generally occurs via hydride transfer and/or catalytic hydrogenation, lowering the oxidation state of the reactive carbon or heteroatom center.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where carboxylic acid reduction-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "nitro-reduction": {
       "name": "Nitro Reduction",
       "formula": "R-NO₂ + Sn/HCl → R-NH₂",
       "info": "The reduction of nitro compounds—most commonly nitrobenzene—is a vital reaction in organic chemistry used to synthesize primary amines (like aniline). This transformation can be achieved through several different methods depending on the desired scale and the presence of other functional groups in the molecule.",
-      "fact": "This method is very clean as the only byproduct is water, and the catalyst can be filtered off and reused/"
+      "fact": "This method is very clean as the only byproduct is water, and the catalyst can be filtered off and reused/",
+      "conditions": "Use a suitable reducing system (e.g., H₂/metal catalyst, LiAlH₄, or Sn/HCl) under dry, controlled conditions chosen for chemoselectivity.",
+      "mechanism": "Reduction generally occurs via hydride transfer and/or catalytic hydrogenation, lowering the oxidation state of the reactive carbon or heteroatom center.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where nitro reduction-type reactivity is exploited.",
+      "safety": "Nitro compounds and nitrating mixtures can be toxic and strongly oxidizing; avoid overheating and maintain strict temperature control.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "halogen-phenol": {
       "name": "Phenol Halogenation",
       "formula": "C₆H₅OH + 3X₂ → C₆H₂X₃OH + 3HX",
       "info": "The halogenation of phenol is significantly faster and easier than the halogenation of benzene. This is because the hydroxyl group (OH) is a powerful activating group. The lone pair of electrons on the oxygen atom is delocalized into the benzene ring, greatly increasing the electron density and making the ring highly nucleophilic.",
-      "fact": "This is a characteristic test for phenols."
+      "fact": "This is a characteristic test for phenols.",
+      "conditions": "Typical conditions vary by substrate: alkenes/alkynes react at room temperature in inert solvent; alkanes usually need UV light or heat for radical substitution.",
+      "mechanism": "Typically proceeds by electrophilic addition (alkenes/alkynes), electrophilic aromatic substitution (arenes), or free-radical substitution (alkanes), depending on the substrate.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where phenol halogenation-type reactivity is exploited.",
+      "safety": "Halogens and hydrogen halides are corrosive/irritant; handle in a fume hood and quench residues with approved neutralization protocols.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "halogen-sulfur": {
       "name": "Sulfur Dioxide Chlorination",
       "formula": "SO₂ + Cl₂ → SO₂Cl₂",
       "info": "The reaction between sulfur dioxide (SO₂) and halogens (X₂) is a significant chemical process used to produce sulfur-halogen compounds or to facilitate redox reactions. The outcome depends on whether the reaction occurs in the gas phase or in the presence of water.",
-      "fact": "This compound is used as a chlorinating agent."
+      "fact": "This compound is used as a chlorinating agent.",
+      "conditions": "Typical conditions vary by substrate: alkenes/alkynes react at room temperature in inert solvent; alkanes usually need UV light or heat for radical substitution.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where sulfur dioxide chlorination-type reactivity is exploited.",
+      "safety": "Halogens and hydrogen halides are corrosive/irritant; handle in a fume hood and quench residues with approved neutralization protocols.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "oxidation-sulfur": {
       "name": "Sulfur Dioxide Oxidation",
       "formula": "SO₂ + V₂O₅ → SO₃",
       "info": "The oxidation of sulfur dioxide (SO₂) involves the conversion of sulfur from the +4 oxidation state to the +6 oxidation state, primarily forming sulfur trioxide (SO₃). This reaction is the cornerstone of the industrial production of sulfuric acid and a key factor in environmental chemistry.",
-      "fact": "This is the contact process for sulfuric acid production."
+      "fact": "This is the contact process for sulfuric acid production.",
+      "conditions": "Select oxidant strength and solvent carefully (e.g., KMnO₄, dichromate, PCC, peracids) while controlling temperature to avoid over-oxidation.",
+      "mechanism": "Oxidation increases oxidation state via oxygen insertion, dehydrogenation, or oxidative cleavage depending on reagent strength and substrate class.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where sulfur dioxide oxidation-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "oxidation-reduction": {
       "name": "Water Formation",
       "formula": "2H₂ + O₂ → 2H₂O",
       "info": "The formation of water from its constituent elements—hydrogen and oxygen—is one of the most fundamental reactions in chemistry. While the reaction is conceptually simple, it is highly energetic and involves a complex chain mechanism.",
-      "fact": "The reaction is highly exothermic, meaning it releases a significant amount of energy in the form of heat and light."
+      "fact": "The reaction is highly exothermic, meaning it releases a significant amount of energy in the form of heat and light.",
+      "conditions": "Use a suitable reducing system (e.g., H₂/metal catalyst, LiAlH₄, or Sn/HCl) under dry, controlled conditions chosen for chemoselectivity.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where water formation-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "amine-halogen": {
       "name": "Amine Halogenation",
       "formula": "R-NH₂ + X₂ → R-NX + HX",
       "info": "The reaction between amines and halogens (like Cl₂, Br₂, I₂) is a process that replaces the hydrogen atoms on the nitrogen with halogen atoms. This produces a class of compounds known as N-haloamines.",
-      "fact": "If the reaction is not controlled, the HX produced can protonate the starting amine, making it unreactive. This is why a base is often added to neutralize the acid."
+      "fact": "If the reaction is not controlled, the HX produced can protonate the starting amine, making it unreactive. This is why a base is often added to neutralize the acid.",
+      "conditions": "Typical conditions vary by substrate: alkenes/alkynes react at room temperature in inert solvent; alkanes usually need UV light or heat for radical substitution.",
+      "mechanism": "Typically proceeds by electrophilic addition (alkenes/alkynes), electrophilic aromatic substitution (arenes), or free-radical substitution (alkanes), depending on the substrate.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where amine halogenation-type reactivity is exploited.",
+      "safety": "Halogens and hydrogen halides are corrosive/irritant; handle in a fume hood and quench residues with approved neutralization protocols.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alkene-benzene": {
       "name": "Friedel-Crafts Alkylation",
       "formula": "C₆H₆ + R-CH=CH₂ → C₆H₅-CH(R)-CH₃",
       "info": "The reaction between an alkene and benzene is a classic example of Friedel-Crafts Alkylation. While Friedel-Crafts reactions traditionally use alkyl halides, using an alkene is a more 'atom-economical' industrial method because it doesn't produce a halogen acid byproduct like HCl",
-      "fact": "The most famous industrial use of this reaction is the synthesis of ethylbenzene."
+      "fact": "The most famous industrial use of this reaction is the synthesis of ethylbenzene.",
+      "conditions": "Anhydrous conditions with a Lewis acid catalyst (often AlCl₃/FeCl₃), controlled addition, and temperature control are usually required.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where friedel-crafts alkylation-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "amine-oxidation": {
       "name": "Amine Oxidation",
       "formula": "R-NH₂ + [O]₂ → R-NO₂",
       "info": "The oxidation of amines is a complex area of chemistry because the outcome varies significantly depending on the class of the amine (primary, secondary, or tertiary) and the oxidizing agent used. Unlike many other functional groups, amines can be oxidized at the nitrogen atom, the adjacent carbon, or both.",
-      "fact": "In biological systems, specifically in the liver, amines (from amino acids) undergo oxidative deamination."
+      "fact": "In biological systems, specifically in the liver, amines (from amino acids) undergo oxidative deamination.",
+      "conditions": "Select oxidant strength and solvent carefully (e.g., KMnO₄, dichromate, PCC, peracids) while controlling temperature to avoid over-oxidation.",
+      "mechanism": "Oxidation increases oxidation state via oxygen insertion, dehydrogenation, or oxidative cleavage depending on reagent strength and substrate class.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where amine oxidation-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alkyne-benzene": {
       "name": "Friedel-Crafts Alkylation",
       "formula": "C₆H₆ + R-C≡C-H → C₆H₅-C(R)=CH₂",
       "info": "When benzene reacts with an alkyne in the presence of a strong Lewis acid catalyst (like AlCl₃), the reaction can occur once to form an alkenylbenzene (a styrene derivative) or twice to form a diarylakane.",
-      "fact": "If excess benzene is used, the reaction often continues because the intermediate alkene is more reactive than the starting alkyne."
+      "fact": "If excess benzene is used, the reaction often continues because the intermediate alkene is more reactive than the starting alkyne.",
+      "conditions": "Anhydrous conditions with a Lewis acid catalyst (often AlCl₃/FeCl₃), controlled addition, and temperature control are usually required.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where friedel-crafts alkylation-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "benzene-oxidation": {
       "name": "Benzene Oxidation",
       "formula": "2C₆H₆ + 9O₂ → 2C₄H₂O₃ + 4H₂O + 4CO₂",
       "info": "The oxidation of benzene is quite different from the oxidation of alkanes or alkenes. Because of its aromatic stability (resonance energy), the benzene ring is exceptionally resistant to common oxidizing agents like potassium permanganate (KMnO₄) or potassium dichromate (K₂Cr₂O₇), which would typically react with double bonds.However, under extreme conditions or using specific catalysts, benzene can be oxidized.",
-      "fact": "Maleic anhydride is used extensively in the production of polyester resins, alkyd resins, and agricultural chemicals."
+      "fact": "Maleic anhydride is used extensively in the production of polyester resins, alkyd resins, and agricultural chemicals.",
+      "conditions": "Select oxidant strength and solvent carefully (e.g., KMnO₄, dichromate, PCC, peracids) while controlling temperature to avoid over-oxidation.",
+      "mechanism": "Oxidation increases oxidation state via oxygen insertion, dehydrogenation, or oxidative cleavage depending on reagent strength and substrate class.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where benzene oxidation-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "benzene-reduction": {
       "name": "Cyclohexane Formation",
       "formula": "C₆H₆ + 3H₂ → C₆H₁₂",
       "info": "The reduction of benzene is the process of adding hydrogen atoms to the aromatic ring to saturate the double bonds. Because benzene is exceptionally stable due to its resonance energy, this reaction is more difficult to perform than the reduction of simple alkenes.",
-      "fact": "Cyclohexane, a colorless liquid used as a solvent and as a precursor for making Nylon."
+      "fact": "Cyclohexane, a colorless liquid used as a solvent and as a precursor for making Nylon.",
+      "conditions": "Use a suitable reducing system (e.g., H₂/metal catalyst, LiAlH₄, or Sn/HCl) under dry, controlled conditions chosen for chemoselectivity.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where cyclohexane formation-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alkene-phenol": {
       "name": "Friedel-Crafts Alkylation",
       "formula": "C₆H₅OH + R-CH=CH₂ → HOC₆H₄-CH(R)CH₃",
       "info": "The reaction between phenol and an alkene is a specialized form of Friedel-Crafts Alkylation. Because the hydroxyl group (OH) is a very powerful activating group, phenol is much more reactive than benzene. This allows the reaction to occur under milder conditions, though it is often more complex due to the potential for reaction at both the oxygen and the carbon ring.",
-      "fact": "In the presence of an acid catalyst, the alkene is protonated to form a carbocation, which then acts as an electrophile."
+      "fact": "In the presence of an acid catalyst, the alkene is protonated to form a carbocation, which then acts as an electrophile.",
+      "conditions": "Anhydrous conditions with a Lewis acid catalyst (often AlCl₃/FeCl₃), controlled addition, and temperature control are usually required.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where friedel-crafts alkylation-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "acyl_cl-alkene": {
       "name": "Kondakov Reaction",
       "formula": "R-COCl + R'CH=CH₂ → RCOCH₂CH(Cl)R'",
       "info": "The reaction between an acyl chloride and an alkene is a variation of the Friedel-Crafts reaction, often referred to as the Kondakov reaction or aliphatic acylation. It is used to synthesize β-halo ketones or α,β-unsaturated ketones.",
-      "fact": "Unlike the acylation of benzene, which is very common, the acylation of alkenes requires careful control to prevent the polymerisation of the alkene."
+      "fact": "Unlike the acylation of benzene, which is very common, the acylation of alkenes requires careful control to prevent the polymerisation of the alkene.",
+      "conditions": "Run under dry conditions with base (e.g., pyridine/triethylamine) to neutralize HCl and suppress side reactions.",
+      "mechanism": "Most acyl-derivative transformations follow nucleophilic acyl substitution: nucleophile attack, tetrahedral intermediate, then leaving-group departure.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where kondakov reaction-type reactivity is exploited.",
+      "safety": "Acyl chlorides are moisture-sensitive and release HCl fumes; use dry apparatus, gloves, goggles, and a well-functioning fume hood.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alkene-oxidation": {
       "name": "Epoxidation (Formation of Oxiranes)",
       "formula": "R-CH=CH-R + R'CO₃H → R-CH(O)CH-R + R'COOH",
       "info": "The oxidation of alkenes is a versatile area of organic chemistry because the product depends entirely on the strength of the oxidizing agent and the specific reaction conditions. These reactions typically involve the addition of oxygen across the double bond or the complete cleavage of the bond.",
-      "fact": "An alkene can react with a peroxy acid (like mCPBA) to form a three-membered cyclic ether called an epoxide or oxirane."
+      "fact": "An alkene can react with a peroxy acid (like mCPBA) to form a three-membered cyclic ether called an epoxide or oxirane.",
+      "conditions": "Epoxidation commonly uses peracids (e.g., mCPBA) in inert solvent at controlled temperature to limit side reactions.",
+      "mechanism": "Concerted oxygen transfer from peracid to alkene gives epoxide in a stereospecific step; no carbocation rearrangement occurs.",
+      "applications": "Epoxides are versatile intermediates for diols, pharmaceuticals, and polymer/adhesive chemistry.",
+      "safety": "Peracids are strong oxidants and may be shock-sensitive; avoid contamination and keep reactions cooled.",
+      "common_mistakes": [
+        "Predicting carbocation rearrangements in peracid epoxidation.",
+        "Ignoring alkene stereochemistry retention in the concerted step.",
+        "Confusing epoxidation with oxidative cleavage conditions."
+      ],
+      "revision_checklist": [
+        "Identify reagent class (peracid).",
+        "State concerted mechanism.",
+        "Predict stereochemical relationship of substituents in epoxide."
+      ]
     },
     "alkane-oxidation": {
       "name": "Combustion",
       "formula": "CH₄ + 2O₂ → CO₂ + 2H₂O",
       "info": "The oxidation of alkanes is the process by which they react with oxygen or oxidizing agents. Because alkanes are saturated hydrocarbons with strong C-H and C-C bonds, they are generally quite unreactive (hence their old name, paraffins, from the Latin parum affinis meaning 'little affinity').",
-      "fact": "This reaction is highly exothermic, which is why alkanes are the primary components of fuels like natural gas, gasoline, and diesel."
+      "fact": "This reaction is highly exothermic, which is why alkanes are the primary components of fuels like natural gas, gasoline, and diesel.",
+      "conditions": "Select oxidant strength and solvent carefully (e.g., KMnO₄, dichromate, PCC, peracids) while controlling temperature to avoid over-oxidation.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where combustion-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alkane-nitro": {
       "name": "Nitration of Alkane",
       "formula": "RH + HNO₃ → R-NO₂ + H₂O",
       "info": "The nitration of alkanes is the process of replacing a hydrogen atom with a nitro group (NO₂). Unlike aromatic nitration (which is very common), alkane nitration is more difficult because alkanes are saturated and lack the electron-rich system of benzene.",
-      "fact": "Alkane nitration is typically carried out in the vapor phase at high temperatures (400°C to 500°C). In these conditions, the alkane reacts with nitric acid (HNO₃) vapors."
+      "fact": "Alkane nitration is typically carried out in the vapor phase at high temperatures (400°C to 500°C). In these conditions, the alkane reacts with nitric acid (HNO₃) vapors.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where nitration of alkane-type reactivity is exploited.",
+      "safety": "Nitro compounds and nitrating mixtures can be toxic and strongly oxidizing; avoid overheating and maintain strict temperature control.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "acyl_cl-alkane": {
       "name": "Acylation of Alkane",
       "formula": "R-COCl + R'-H → R-CO-R' + HCl",
       "info": "The reaction between an acyl chloride (acid chloride) and an alkane is relatively rare compared to other acylation reactions. This is because alkanes are saturated hydrocarbons with very strong C-H bonds and no pi electrons to attack an electrophile.",
-      "fact": "In the presence of a powerful catalyst like Aluminum Chloride (AlCl₃), an acyl chloride can react with an alkane to produce a ketone."
+      "fact": "In the presence of a powerful catalyst like Aluminum Chloride (AlCl₃), an acyl chloride can react with an alkane to produce a ketone.",
+      "conditions": "Run under dry conditions with base (e.g., pyridine/triethylamine) to neutralize HCl and suppress side reactions.",
+      "mechanism": "Most acyl-derivative transformations follow nucleophilic acyl substitution: nucleophile attack, tetrahedral intermediate, then leaving-group departure.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where acylation of alkane-type reactivity is exploited.",
+      "safety": "Acyl chlorides are moisture-sensitive and release HCl fumes; use dry apparatus, gloves, goggles, and a well-functioning fume hood.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alcohol-alkyne": {
       "name": "Alkoxylation",
       "formula": "R-C≡C-H + R'OH → R-CH=C(OR')H",
       "info": "The reaction between an alcohol and an alkyne is a nucleophilic addition reaction, often referred to as alkoxylation. Because alkynes are unsaturated, alcohols can add across the triple bond to form vinyl ethers or acetals.",
-      "fact": "In the presence of a strong base (like KOH or sodium alkoxide), an alcohol adds to an alkyne to form a vinyl ether."
+      "fact": "In the presence of a strong base (like KOH or sodium alkoxide), an alcohol adds to an alkyne to form a vinyl ether.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where alkoxylation-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alkyne-phenol": {
       "name": "Amine Oxidation",
       "formula": "R-C≡C-H + C₆H₅OH → C₆H₆-O-C(R)=CH₂",
       "info": "The reaction between phenol and an alkyne is a specific type of nucleophilic addition known as vinylation. Because phenol has a nucleophilic hydroxyl group (OH), it can add across the triple bond of an alkyne to form aryl vinyl ethers. In the presence of a strong base such as potassium hydroxide (KOH) or an alkali metal phenoxide, phenol reacts with an alkyne (often acetylene) to produce a vinyl ether.",
-      "fact": "The base deprotonates the phenol to form a phenoxide ion (C₆H₅O-)."
+      "fact": "The base deprotonates the phenol to form a phenoxide ion (C₆H₅O-).",
+      "conditions": "Select oxidant strength and solvent carefully (e.g., KMnO₄, dichromate, PCC, peracids) while controlling temperature to avoid over-oxidation.",
+      "mechanism": "Oxidation increases oxidation state via oxygen insertion, dehydrogenation, or oxidative cleavage depending on reagent strength and substrate class.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where amine oxidation-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alkyne-amine": {
       "name": "Hydroamination",
       "formula": "R-C≡C-H + R'NH₂ → R-CH=C(NHR')H ⇌ R-CH₂-C(=NR')H",
       "info": "The reaction between an alkyne and an amine is a nucleophilic addition reaction known as hydroamination. This process involves the addition of an N-H bond across a ≡ triple bond to form enamines or imines. When a primary or secondary amine reacts with an alkyne, the nitrogen atom attaches to one carbon of the triple bond, and the hydrogen atom attaches to the other.",
-      "fact": "When the amine group and the alkyne group are on the same molecule, the reaction leads to the formation of nitrogen-containing heterocycles, such as pyrroles or piperidines."
+      "fact": "When the amine group and the alkyne group are on the same molecule, the reaction leads to the formation of nitrogen-containing heterocycles, such as pyrroles or piperidines.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where hydroamination-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alkyne-carboxylic_acid": {
       "name": "Vinyl Ester Production",
       "formula": "R-C≡C-H + R'COOH → R-C(OOCR')=CH₂",
       "info": "The reaction between an alkyne and a carboxylic acid is an addition reaction that typically produces vinyl esters. Because carboxylic acids are relatively weak nucleophiles, this reaction usually requires a catalyst—either a strong acid or, more commonly, a transition metal catalyst like Mercury (Hg), Gold (Au), or Ruthenium (Ru).",
-      "fact": " The reaction generally follows Markovnikov's Rule, where the carboxylate group (R'COO-) attaches to the more substituted carbon of the alkyne."
+      "fact": " The reaction generally follows Markovnikov's Rule, where the carboxylate group (R'COO-) attaches to the more substituted carbon of the alkyne.",
+      "conditions": "Often acid-catalyzed with heating; remove water or use excess reagent to shift equilibrium toward ester product.",
+      "mechanism": "Most acyl-derivative transformations follow nucleophilic acyl substitution: nucleophile attack, tetrahedral intermediate, then leaving-group departure.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where vinyl ester production-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "acyl_cl-alkyne": {
       "name": "Electrophilic Addition",
       "formula": "R-C≡C-H + R'COCl → R-C(Cl)=CH-COR'",
       "info": "The reaction between an alkyne and an acyl chloride is an electrophilic addition reaction. Similar to the acylation of alkenes, this process is used to synthesize β-halo-enones or α,β-unsaturated ketones. Because alkynes have a higher degree of unsaturation, the reaction can be controlled to stop after a single addition, providing a functionalized alkene as the product.",
-      "fact": "In the presence of a Lewis acid catalyst, the acyl group (RCO-) and a chlorine atom add across the triple bond."
+      "fact": "In the presence of a Lewis acid catalyst, the acyl group (RCO-) and a chlorine atom add across the triple bond.",
+      "conditions": "Run under dry conditions with base (e.g., pyridine/triethylamine) to neutralize HCl and suppress side reactions.",
+      "mechanism": "Most acyl-derivative transformations follow nucleophilic acyl substitution: nucleophile attack, tetrahedral intermediate, then leaving-group departure.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where electrophilic addition-type reactivity is exploited.",
+      "safety": "Acyl chlorides are moisture-sensitive and release HCl fumes; use dry apparatus, gloves, goggles, and a well-functioning fume hood.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alkyne-reduction": {
       "name": "Complete Reduction to Alkanes",
       "formula": "R-C≡C-H + 2H₂ → R-CH₂-CH₂-R'",
       "info": "If an alkyne is treated with hydrogen gas in the presence of a standard metal catalyst, it will be fully reduced to an alkane. It is very difficult to stop this reaction at the alkene stage using these catalysts because alkenes are generally more reactive toward hydrogenation than alkynes.",
-      "fact": "Hydrogenation works normally to produce 1-alkenes or alkanes."
+      "fact": "Hydrogenation works normally to produce 1-alkenes or alkanes.",
+      "conditions": "Use a suitable reducing system (e.g., H₂/metal catalyst, LiAlH₄, or Sn/HCl) under dry, controlled conditions chosen for chemoselectivity.",
+      "mechanism": "Reduction generally occurs via hydride transfer and/or catalytic hydrogenation, lowering the oxidation state of the reactive carbon or heteroatom center.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where complete reduction to alkanes-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alcohol-halogen": {
       "name": "Oxidation by Halogen",
       "formula": "R-CH₂OH + X₂ → R-CHO + 2HX",
       "info": "Halogens, particularly Chlorine (Cl₂) and Bromine (Br₂), act as oxidizing agents toward alcohols. This reaction typically occurs in the presence of water or under alkaline conditions.",
-      "fact": "Secondary Alcohols are oxidized to ketones.Tertiary Alcohols: Are generally resistant to oxidation by halogens because they lack a hydrogen atom on the carbinol carbon (the carbon attached to the -OH group)."
+      "fact": "Secondary Alcohols are oxidized to ketones.Tertiary Alcohols: Are generally resistant to oxidation by halogens because they lack a hydrogen atom on the carbinol carbon (the carbon attached to the -OH group).",
+      "conditions": "Typical conditions vary by substrate: alkenes/alkynes react at room temperature in inert solvent; alkanes usually need UV light or heat for radical substitution.",
+      "mechanism": "Oxidation increases oxidation state via oxygen insertion, dehydrogenation, or oxidative cleavage depending on reagent strength and substrate class.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where oxidation by halogen-type reactivity is exploited.",
+      "safety": "Halogens and hydrogen halides are corrosive/irritant; handle in a fume hood and quench residues with approved neutralization protocols.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "carboxylic_acid-halogen": {
       "name": "Hell-Volhard-Zelinsky (HVK) Reaction",
       "formula": "R-CH₂-COOH + X₂/Red P + H₂O → R-CH(X)-COOH + HX",
       "info": " The Red Phosphorus reacts with the halogen to form PX₃, which converts a small amount of the acid into an acid halide. The acid halide exists in equilibrium with its enol form, which is then halogenated at the α-position. Finally, the halogenated acid halide reacts with more carboxylic acid to regenerate the catalyst and produce the final product.",
-      "fact": "The product formed is an α-halo carboxyllic acid"
+      "fact": "The product formed is an α-halo carboxyllic acid",
+      "conditions": "Typical conditions vary by substrate: alkenes/alkynes react at room temperature in inert solvent; alkanes usually need UV light or heat for radical substitution.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where hell-volhard-zelinsky (hvk) reaction-type reactivity is exploited.",
+      "safety": "Halogens and hydrogen halides are corrosive/irritant; handle in a fume hood and quench residues with approved neutralization protocols.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "ether-halogen": {
       "name": "Halogenation",
       "formula": "CH₃CH₂-O-CH₂CH₃ + Cl₂ → CH₃CH(Cl)-O-CH(Cl)CH₃ + 2HCl",
       "info": "The reaction between halogens and ethers typically involves the substitution of hydrogen atoms on the carbon chains. Ethers are generally quite stable, but in the presence of light or heat, they can be halogenated via a free-radical mechanism.",
-      "fact": "In the absence of light, the reaction is slow and typically only replaces the hydrogen atoms on the α-carbons (the carbons directly attached to the oxygen atom)."
+      "fact": "In the absence of light, the reaction is slow and typically only replaces the hydrogen atoms on the α-carbons (the carbons directly attached to the oxygen atom).",
+      "conditions": "Typical conditions vary by substrate: alkenes/alkynes react at room temperature in inert solvent; alkanes usually need UV light or heat for radical substitution.",
+      "mechanism": "Typically proceeds by electrophilic addition (alkenes/alkynes), electrophilic aromatic substitution (arenes), or free-radical substitution (alkanes), depending on the substrate.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where halogenation-type reactivity is exploited.",
+      "safety": "Halogens and hydrogen halides are corrosive/irritant; handle in a fume hood and quench residues with approved neutralization protocols.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "acyl_cl-halogen": {
       "name": "Alpha-Halogenation of Acyl Chloride",
       "formula": "R-CH₂-COCl + X₂ → R-CH(X)-COCl + HX",
       "info": "Acyl chlorides are more reactive than carboxylic acids toward α-halogenation because they exist in a more significant equilibrium with their enol form.",
-      "fact": "The product formed is an α-halo acyl chloride."
+      "fact": "The product formed is an α-halo acyl chloride.",
+      "conditions": "Typical conditions vary by substrate: alkenes/alkynes react at room temperature in inert solvent; alkanes usually need UV light or heat for radical substitution.",
+      "mechanism": "Typically proceeds by electrophilic addition (alkenes/alkynes), electrophilic aromatic substitution (arenes), or free-radical substitution (alkanes), depending on the substrate.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where alpha-halogenation of acyl chloride-type reactivity is exploited.",
+      "safety": "Acyl chlorides are moisture-sensitive and release HCl fumes; use dry apparatus, gloves, goggles, and a well-functioning fume hood.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "halogen-oxidation": {
       "name": "Oxidation of Halogen",
       "formula": "Cl₂ + 2NaOH → NaCl + NaClO + H₂O",
       "info": "When halogens react with water or alkalis, they often undergo disproportionation—a reaction where the same element is simultaneously oxidized and reduced.",
-      "fact": "Except for Fluorine, halogens can exist in positive oxidation states (+1, +3, +5, +7) when combined with more electronegative elements like Oxygen or Fluorine."
+      "fact": "Except for Fluorine, halogens can exist in positive oxidation states (+1, +3, +5, +7) when combined with more electronegative elements like Oxygen or Fluorine.",
+      "conditions": "Typical conditions vary by substrate: alkenes/alkynes react at room temperature in inert solvent; alkanes usually need UV light or heat for radical substitution.",
+      "mechanism": "Oxidation increases oxidation state via oxygen insertion, dehydrogenation, or oxidative cleavage depending on reagent strength and substrate class.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where oxidation of halogen-type reactivity is exploited.",
+      "safety": "Halogens and hydrogen halides are corrosive/irritant; handle in a fume hood and quench residues with approved neutralization protocols.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "halogen-reduction": {
       "name": "Hydrogenation of Halogen",
       "formula": "H₂(g) + X₂(g) → 2HX(g)",
       "info": "The hydrogenation of halogens is a fundamental redox reaction where a halogen molecule (X₂) reacts with hydrogen gas (H₂) to form a hydrogen halide (HX).",
-      "fact": "The reaction is a direct combination (synthesis) reaction"
+      "fact": "The reaction is a direct combination (synthesis) reaction",
+      "conditions": "Typical conditions vary by substrate: alkenes/alkynes react at room temperature in inert solvent; alkanes usually need UV light or heat for radical substitution.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where hydrogenation of halogen-type reactivity is exploited.",
+      "safety": "Halogens and hydrogen halides are corrosive/irritant; handle in a fume hood and quench residues with approved neutralization protocols.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "oxidation-phenol": {
       "name": "Air Oxidation",
       "formula": "C₆H₅OH + Na₂Cr₂O₇/H₂SO₄ → O=C₆H₄=O",
       "info": "The oxidation of phenol is more complex than that of simple aliphatic alcohols. Because the hydroxyl group is attached to an aromatic ring, the reaction often affects the ring itself rather than just the oxygen atom.",
-      "fact": "Pure phenol is a colorless crystalline solid, but it often turns pink or reddish-brown over time."
+      "fact": "Pure phenol is a colorless crystalline solid, but it often turns pink or reddish-brown over time.",
+      "conditions": "Select oxidant strength and solvent carefully (e.g., KMnO₄, dichromate, PCC, peracids) while controlling temperature to avoid over-oxidation.",
+      "mechanism": "Oxidation increases oxidation state via oxygen insertion, dehydrogenation, or oxidative cleavage depending on reagent strength and substrate class.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where air oxidation-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alcohol-reduction": {
       "name": "Reduction to Alkanes",
       "formula": "R-OH + 2HI → R-H + I₂ + H₂O",
       "info": "The most direct way to reduce an alcohol to an alkane involves using Hydroiodic Acid (HI) in the presence of Red Phosphorus. This is a powerful reducing system capable of stripping oxygen from many functional groups.",
-      "fact": "This is often used in the reduction of complex sugars or polyols to their corresponding hydrocarbons."
+      "fact": "This is often used in the reduction of complex sugars or polyols to their corresponding hydrocarbons.",
+      "conditions": "Use a suitable reducing system (e.g., H₂/metal catalyst, LiAlH₄, or Sn/HCl) under dry, controlled conditions chosen for chemoselectivity.",
+      "mechanism": "Reduction generally occurs via hydride transfer and/or catalytic hydrogenation, lowering the oxidation state of the reactive carbon or heteroatom center.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where reduction to alkanes-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "phenol-reduction": {
       "name": "Deoxygenation",
       "formula": "C₆H₅OH + Zn dust → C₆H₆ + ZnO(g)",
       "info": "This is the most common laboratory method for removing the hydroxyl group from phenol. It involves heating phenol with Zinc dust.",
-      "fact": "This is a surface reaction where the Zinc acts as a reducing agent, stripping the oxygen from the phenol."
+      "fact": "This is a surface reaction where the Zinc acts as a reducing agent, stripping the oxygen from the phenol.",
+      "conditions": "Use a suitable reducing system (e.g., H₂/metal catalyst, LiAlH₄, or Sn/HCl) under dry, controlled conditions chosen for chemoselectivity.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where deoxygenation-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "carboxylic_acid-phenol": {
       "name": "Fishcher Esterification",
       "formula": "C₆H₅OH + RCOOH → RCOOC₆H₅ + H₂O",
       "info": "The reaction between phenol and carboxylic acids is a bit unique because phenols are less nucleophilic than simple aliphatic alcohols. Consequently, a direct reaction to form an ester (esterification) is often slow or requires specific conditions and catalysts.",
-      "fact": "The Product formed is an Aryl Ester (Phenyl Alkanoate)"
+      "fact": "The Product formed is an Aryl Ester (Phenyl Alkanoate)",
+      "conditions": "Often acid-catalyzed with heating; remove water or use excess reagent to shift equilibrium toward ester product.",
+      "mechanism": "Most acyl-derivative transformations follow nucleophilic acyl substitution: nucleophile attack, tetrahedral intermediate, then leaving-group departure.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where fishcher esterification-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "nitro-phenol": {
       "name": "Phenol Nitration",
       "formula": "C₆H₅OH + dil. HNO₃ → o-nitrophenol + p-nitrophenol",
       "info": "When phenol reacts with dilute HNO₃ at a low temperature (room temperature, approximately 298 K), it produces a mixture of ortho and para nitrophenols.",
-      "fact": "The ortho isomer is typically formed in higher amounts but can be separated from the para isomer via steam distillation."
+      "fact": "The ortho isomer is typically formed in higher amounts but can be separated from the para isomer via steam distillation.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where phenol nitration-type reactivity is exploited.",
+      "safety": "Nitro compounds and nitrating mixtures can be toxic and strongly oxidizing; avoid overheating and maintain strict temperature control.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "reduction-sulfur": {
       "name": "Reduction of Sulfuric Acid",
       "formula": "2H₂SO₄ + Cu → CuSO₄ + SO₂ + 2H₂O",
       "info": "Concentrated sulfuric acid is a strong oxidizing agent and is easily reduced by various substances, especially halides and metals.",
-      "fact": "Iodide is a stronger reducing agent and can reduce it all the way to hydrogen sulfide (H₂S)"
+      "fact": "Iodide is a stronger reducing agent and can reduce it all the way to hydrogen sulfide (H₂S)",
+      "conditions": "Use a suitable reducing system (e.g., H₂/metal catalyst, LiAlH₄, or Sn/HCl) under dry, controlled conditions chosen for chemoselectivity.",
+      "mechanism": "Reduction generally occurs via hydride transfer and/or catalytic hydrogenation, lowering the oxidation state of the reactive carbon or heteroatom center.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where reduction of sulfuric acid-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "benzene-sulfur": {
       "name": "Benzene Sulphonation",
       "formula": "C₆H₆ + H₂SO₄ → C₆H₅SO₃ + H₂O",
       "info": "Benzene reacts with fuming sulphuric acid (oleum) or concentrated sulphuric acid at elevated temperatures to produce benzene sulphonic acid.",
-      "fact": "The actual electrophile is Sulfur Trioxide SO₃. Even in concentrated sulphuric acid, SO₃ is produced through the equilibrium"
+      "fact": "The actual electrophile is Sulfur Trioxide SO₃. Even in concentrated sulphuric acid, SO₃ is produced through the equilibrium",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where benzene sulphonation-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "amine-sulfur": {
       "name": "Amine Sulphonation",
       "formula": "C₆H₅NH₂ + H₂SO₄ → C₆H₅NH₃+HSO₄-",
       "info": "The sulphonation of amines is a significant reaction in organic chemistry, primarily used to produce sulphonamides, which are the basis for a large class of antibiotics (sulfa drugs).",
-      "fact": "Aniline reacts with concentrated H₂SO₄ to form anilinium hydrogen sulphate."
+      "fact": "Aniline reacts with concentrated H₂SO₄ to form anilinium hydrogen sulphate.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where amine sulphonation-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "ether-oxidation": {
       "name": "Peroxide Formation",
       "formula": "CH₃CH₂-O-CH₂CH₃ + O₂ → CH₃CH(OOH)-O-CH₂CH₃",
       "info": "When ethers are exposed to air (oxygen) and light over long periods, they slowly react with oxygen to form hydroperoxides and dialkyl peroxides. This is a free-radical chain reaction",
-      "fact": "Laboratories ether bottles are often tested for peroxides before use, beacause they are highly explosive and can detonate if the ether is distilled to dryness or heated."
+      "fact": "Laboratories ether bottles are often tested for peroxides before use, beacause they are highly explosive and can detonate if the ether is distilled to dryness or heated.",
+      "conditions": "Select oxidant strength and solvent carefully (e.g., KMnO₄, dichromate, PCC, peracids) while controlling temperature to avoid over-oxidation.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where peroxide formation-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "acyl_cl-oxidation": {
       "name": "Hydration",
       "formula": "RCOCl + H₂O → RCOOH + HCl",
       "info": "Acyl chlorides are generally resistant to common oxidizing agents like Potassium Permanganate (KMnO₄) or Potassium Dichromate (K₂Cr₂O₇) in anhydrous conditions. However, if water is present (which is common in many oxidation reactions), the acyl chloride will first undergo hydrolysis to form a carboxylic acid.",
-      "fact": "Any further oxidation would then act upon the resulting carboxylic acid (e.g., oxidizing a side chain)."
+      "fact": "Any further oxidation would then act upon the resulting carboxylic acid (e.g., oxidizing a side chain).",
+      "conditions": "Select oxidant strength and solvent carefully (e.g., KMnO₄, dichromate, PCC, peracids) while controlling temperature to avoid over-oxidation.",
+      "mechanism": "Most acyl-derivative transformations follow nucleophilic acyl substitution: nucleophile attack, tetrahedral intermediate, then leaving-group departure.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where hydration-type reactivity is exploited.",
+      "safety": "Acyl chlorides are moisture-sensitive and release HCl fumes; use dry apparatus, gloves, goggles, and a well-functioning fume hood.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "acyl_cl-reduction": {
       "name": "Reduction to Primary Acid",
       "formula": "RCOCl + LiAlH₄/ether → RCH₂OH",
       "info": "The first hydride displaces the chloride ion to form an aldehyde. Because the aldehyde is more reactive than the starting acyl chloride, a second hydride immediately attacks to form a primary alcohol.",
-      "fact": "If you want to fully reduce the carbonyl group, strong hydride donors are used."
+      "fact": "If you want to fully reduce the carbonyl group, strong hydride donors are used.",
+      "conditions": "Use a suitable reducing system (e.g., H₂/metal catalyst, LiAlH₄, or Sn/HCl) under dry, controlled conditions chosen for chemoselectivity.",
+      "mechanism": "Reduction generally occurs via hydride transfer and/or catalytic hydrogenation, lowering the oxidation state of the reactive carbon or heteroatom center.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where reduction to primary acid-type reactivity is exploited.",
+      "safety": "Acyl chlorides are moisture-sensitive and release HCl fumes; use dry apparatus, gloves, goggles, and a well-functioning fume hood.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "acyl_cl-carboxylic_acid": {
       "name": "Acid Anhydride Synthesis",
       "formula": "RCOCl + R'COOH → R-CO-O-CO-R' + HCl",
       "info": "When an acyl chloride reacts with a carboxylic acid, the hydroxyl oxygen of the acid acts as a nucleophile, attacking the carbonyl carbon of the acyl chloride.",
-      "fact": "Pyridine is typically added to the reaction mixture; It acts as a base to neutralize the HCl gas produced, and it acts as a nucleophilic catalyst."
+      "fact": "Pyridine is typically added to the reaction mixture; It acts as a base to neutralize the HCl gas produced, and it acts as a nucleophilic catalyst.",
+      "conditions": "Run under dry conditions with base (e.g., pyridine/triethylamine) to neutralize HCl and suppress side reactions.",
+      "mechanism": "Most acyl-derivative transformations follow nucleophilic acyl substitution: nucleophile attack, tetrahedral intermediate, then leaving-group departure.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where acid anhydride synthesis-type reactivity is exploited.",
+      "safety": "Acyl chlorides are moisture-sensitive and release HCl fumes; use dry apparatus, gloves, goggles, and a well-functioning fume hood.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     },
     "alkene-sulfur": {
       "name": "Alkene Sulphonation",
       "formula": "CH₂=CH₂ + H₂SO₄ → CH₂-CH₂-OSOH₃",
       "info": "When an alkene reacts with cold, concentrated sulphuric acid, it undergoes an addition reaction to form an alkyl hydrogen sulphate.",
-      "fact": "In industrial chemistry, this reaction is fundamental for producing Alpha-Olefin Sulphonates (AOS), which are widely used as biodegradable detergents and surfactants."
+      "fact": "In industrial chemistry, this reaction is fundamental for producing Alpha-Olefin Sulphonates (AOS), which are widely used as biodegradable detergents and surfactants.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where alkene sulphonation-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "alkene-amine": {
+      "name": "Hydroamination of Alkene",
+      "formula": "R-CH=CH₂ + R'NH₂ → R-CH₂-CH₂-NHR'",
+      "info": "Hydroamination adds an N-H bond across a C=C bond to make C-N bonds directly. In practice this often needs acid, metal, or radical activation due to kinetic barriers.",
+      "fact": "Direct C-N bond formation from alkenes is an atom-economical route valuable in medicinal chemistry.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where hydroamination of alkene-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "alkane-reduction": {
+      "name": "No Further Reduction (Reference Case)",
+      "formula": "R-H + [H] → R-H",
+      "info": "Simple alkanes are already highly reduced and generally do not undergo further chemical reduction under standard undergraduate conditions.",
+      "fact": "Alkanes are often used as “inert” hydrocarbon frameworks in reaction planning.",
+      "conditions": "Use a suitable reducing system (e.g., H₂/metal catalyst, LiAlH₄, or Sn/HCl) under dry, controlled conditions chosen for chemoselectivity.",
+      "mechanism": "Reduction generally occurs via hydride transfer and/or catalytic hydrogenation, lowering the oxidation state of the reactive carbon or heteroatom center.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where no further reduction (reference case)-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "alcohol-amine": {
+      "name": "Amino Alcohol Formation (Substitution Route)",
+      "formula": "R-CH₂OH + R'NH₂ → R-CH₂-NHR' + H₂O",
+      "info": "Alcohols can be transformed into amines through activation/substitution pathways (e.g., via halides, sulfonates, or catalytic borrowing-hydrogen methods).",
+      "fact": "Direct substitution on unactivated alcohols is usually slow without catalysts or activation.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where amino alcohol formation (substitution route)-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "alcohol-benzene": {
+      "name": "Friedel-Crafts Alkylation via Alcohol",
+      "formula": "C₆H₆ + R-OH → C₆H₅-R + H₂O",
+      "info": "Under strong acid/Lewis acid conditions, suitable alcohols can generate carbocation-like electrophiles that alkylate benzene rings.",
+      "fact": "Rearrangements can occur if unstable carbocations are involved.",
+      "conditions": "Anhydrous conditions with a Lewis acid catalyst (often AlCl₃/FeCl₃), controlled addition, and temperature control are usually required.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where friedel-crafts alkylation via alcohol-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "alcohol-ether": {
+      "name": "Intermolecular Dehydration to Ether",
+      "formula": "2R-OH → R-O-R + H₂O",
+      "info": "Primary alcohols can form symmetrical ethers under acid-catalyzed dehydration conditions at controlled temperatures.",
+      "fact": "Temperature strongly influences selectivity between ether formation and alkene elimination.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Water adds across unsaturation through electrophilic activation and rearrangement/tautomerization where relevant.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where intermolecular dehydration to ether-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "alkane-alkene": {
+      "name": "Hydroalkylation Concept (Advanced)",
+      "formula": "R-H + R'CH=CH₂ → R-CH₂-CH₂-R'",
+      "info": "Direct coupling of alkanes with alkenes generally requires radical or catalytic C-H activation technologies and is an advanced transformation.",
+      "fact": "In introductory chemistry, this is treated as non-trivial and not a standard classroom reaction.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where hydroalkylation concept (advanced)-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "alkane-benzene": {
+      "name": "Alkylation Concept with Activated Electrophile",
+      "formula": "C₆H₆ + R-H → no direct reaction (without activation)",
+      "info": "Alkanes are poor electrophiles/nucleophiles; benzene alkylation typically needs activated partners such as alkyl halides/alcohol-derived carbocations.",
+      "fact": "Useful as a “why no reaction” teaching point in exam questions.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where alkylation concept with activated electrophile-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "alkane-carboxylic_acid": {
+      "name": "No Direct Reaction (Reference Case)",
+      "formula": "R-H + R'COOH → no reaction (standard conditions)",
+      "info": "Under normal conditions, alkanes and carboxylic acids do not react directly due to low alkane reactivity and lack of activation pathways.",
+      "fact": "Understanding non-reactive pairs is essential for mechanism-based prediction.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where no direct reaction (reference case)-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "alkane-ether": {
+      "name": "No Direct Reaction (Reference Case)",
+      "formula": "R-H + R'OR'' → no reaction (standard conditions)",
+      "info": "Both alkanes and ethers are relatively unreactive toward each other in the absence of strong activation conditions.",
+      "fact": "This pair is commonly used to test whether students can identify inert combinations.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where no direct reaction (reference case)-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "alkane-phenol": {
+      "name": "No Direct Reaction (Reference Case)",
+      "formula": "R-H + Ar-OH → no reaction (standard conditions)",
+      "info": "Phenol is weakly acidic, but alkanes are not basic/nucleophilic enough to react directly under ordinary conditions.",
+      "fact": "Phenol reactions usually require electrophilic aromatic substitution or O-functionalization partners.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where no direct reaction (reference case)-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "alkane-alkyne": {
+      "name": "No Direct Reaction (Reference Case)",
+      "formula": "R-H + R'C≡CH → no reaction (standard conditions)",
+      "info": "No efficient direct transformation is expected between neutral alkanes and alkynes without specialized catalysts.",
+      "fact": "Important for excluding implausible pathways in synthesis planning.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where no direct reaction (reference case)-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "amine-benzene": {
+      "name": "Aniline-Type Directing Effects (Reference Pair)",
+      "formula": "Ar-H + R-NH₂ → no direct coupling (standard conditions)",
+      "info": "Amines and benzene do not directly couple under mild conditions, but amino substituents on aromatic rings strongly direct electrophilic substitution.",
+      "fact": "Amino groups are strong ortho/para directors after suitable aromatic functionalization.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where aniline-type directing effects (reference pair)-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "amine-ether": {
+      "name": "Ether Cleavage with Strong Acid then Amination (Concept)",
+      "formula": "R-O-R' + HX + R''NH₂ → substitution products",
+      "info": "Amines do not usually attack unactivated ethers directly; ether cleavage generally requires strong acid or activated leaving groups.",
+      "fact": "Good example of why leaving-group activation governs substitution chemistry.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where ether cleavage with strong acid then amination (concept)-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "amine-phenol": {
+      "name": "Acid-Base/Hydrogen-Bonding Pair (Reference)",
+      "formula": "Ar-OH + R-NH₂ ⇌ Ar-O⁻ · H₃N⁺R",
+      "info": "Phenols and amines may form acid-base or hydrogen-bonded complexes; productive covalent bond formation typically requires additional activation.",
+      "fact": "This pair helps distinguish weak acid-base association from true synthetic transformation.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where acid-base/hydrogen-bonding pair (reference)-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "benzene-carboxylic_acid": {
+      "name": "Friedel-Crafts Acylation via Activated Acid Derivative",
+      "formula": "C₆H₆ + RCOCl/AlCl₃ → C₆H₅COR + HCl",
+      "info": "Carboxylic acids themselves are weak acylating agents; aromatic acylation usually proceeds through activated derivatives such as acyl chlorides/anhydrides.",
+      "fact": "Acylated benzene products are less activating than alkylbenzene products, reducing poly-substitution risk.",
+      "conditions": "Anhydrous conditions with a Lewis acid catalyst (often AlCl₃/FeCl₃), controlled addition, and temperature control are usually required.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where friedel-crafts acylation via activated acid derivative-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "benzene-ether": {
+      "name": "Anisole Formation (Williamson + Aromatic Context)",
+      "formula": "C₆H₅O⁻ + R-X → C₆H₅OR + X⁻",
+      "info": "Aryl ethers are commonly prepared through phenoxide alkylation (Williamson route), linking aromatic chemistry with nucleophilic substitution principles.",
+      "fact": "Aryl halides are generally poor partners for direct SN2, so nucleophile/electrophile choice matters.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where anisole formation (williamson + aromatic context)-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "carboxylic_acid-ether": {
+      "name": "No Direct Reaction (Reference Case)",
+      "formula": "RCOOH + R'OR'' → no major reaction (standard conditions)",
+      "info": "Carboxylic acids and ethers are usually compatible solvents/reagents; major reaction requires strong acids that cleave ethers.",
+      "fact": "Ethers often serve as solvents in acid-sensitive transformations only when conditions are mild.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where no direct reaction (reference case)-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "carboxylic_acid-sulfur": {
+      "name": "Dehydration/Acid Activation Context",
+      "formula": "RCOOH + H₂SO₄ (conc.) → activated/dehydrated pathways",
+      "info": "Strong sulfuric acid can protonate and dehydrate carboxylic systems under forcing conditions, often as part of broader transformation sequences.",
+      "fact": "Concentrated mineral acids are often used for activation rather than as direct reactants in product stoichiometry.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Water adds across unsaturation through electrophilic activation and rearrangement/tautomerization where relevant.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where dehydration/acid activation context-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "nitro-sulfur": {
+      "name": "Nitration Mixture Context",
+      "formula": "HNO₃ + H₂SO₄ → NO₂⁺ + HSO₄⁻ + H₂O",
+      "info": "Sulfuric acid activates nitric acid to generate nitronium ion, the key electrophile for aromatic nitration.",
+      "fact": "This acid pair underpins one of the most important electrophilic aromatic substitution methods.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where nitration mixture context-type reactivity is exploited.",
+      "safety": "Nitro compounds and nitrating mixtures can be toxic and strongly oxidizing; avoid overheating and maintain strict temperature control.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "halogen-nitro": {
+      "name": "Halogen-Nitro Electronic Interaction (Aromatic Context)",
+      "formula": "Ar-X with Ar-NO₂ substituent effects on EAS",
+      "info": "Halogen and nitro groups strongly influence aromatic substitution: halogens are deactivating ortho/para directors, while nitro is strongly deactivating meta director.",
+      "fact": "Substituent directing effects are a high-yield topic in chemistry exams.",
+      "conditions": "Typical conditions vary by substrate: alkenes/alkynes react at room temperature in inert solvent; alkanes usually need UV light or heat for radical substitution.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where halogen-nitro electronic interaction (aromatic context)-type reactivity is exploited.",
+      "safety": "Halogens and hydrogen halides are corrosive/irritant; handle in a fume hood and quench residues with approved neutralization protocols.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "ether-reduction": {
+      "name": "Ether Cleavage under Strong Reduction/Acid",
+      "formula": "R-O-R' + 2HI → R-I + R'-I + H₂O",
+      "info": "Most ethers resist mild reduction, but concentrated HI (often with heat) cleaves C-O bonds to alkyl iodides.",
+      "fact": "Aryl-alkyl ethers usually cleave at the alkyl side, not the aryl C-O bond.",
+      "conditions": "Use a suitable reducing system (e.g., H₂/metal catalyst, LiAlH₄, or Sn/HCl) under dry, controlled conditions chosen for chemoselectivity.",
+      "mechanism": "Reduction generally occurs via hydride transfer and/or catalytic hydrogenation, lowering the oxidation state of the reactive carbon or heteroatom center.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where ether cleavage under strong reduction/acid-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "carboxylic_acid-nitro": {
+      "name": "Acidic Functional Group Compatibility (Reference)",
+      "formula": "R-COOH + R'-NO₂ → no direct coupling (standard conditions)",
+      "info": "Carboxylic acids and nitro compounds are generally stable together; productive coupling typically requires activation (e.g., reduction to amine then amidation).",
+      "fact": "This pair teaches retrosynthetic thinking: transform nitro to amine first, then form amide.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Mechanism depends on functional group pairing, but follows standard organic patterns of electrophilic, nucleophilic, or radical pathways.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where acidic functional group compatibility (reference)-type reactivity is exploited.",
+      "safety": "Nitro compounds and nitrating mixtures can be toxic and strongly oxidizing; avoid overheating and maintain strict temperature control.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
+    },
+    "alcohol-sulfur": {
+      "name": "Alcohol Dehydration",
+      "formula": "R-CH₂CH₂OH + H₂SO₄ (heat) → R-CH=CH₂ + H₂O",
+      "info": "Concentrated sulfuric acid promotes elimination of water from alcohols, often giving alkenes (or ethers at lower temperatures for primary alcohols).",
+      "fact": "Temperature control determines substitution/dehydration selectivity in many acid-promoted alcohol reactions.",
+      "conditions": "Use dry glassware, controlled temperature, and substrate-appropriate catalyst/reagent selection to maximize selectivity and yield.",
+      "mechanism": "Water adds across unsaturation through electrophilic activation and rearrangement/tautomerization where relevant.",
+      "applications": "This transformation is important in synthesis planning for pharmaceuticals, polymers, dyes, and fine chemicals where alcohol dehydration-type reactivity is exploited.",
+      "safety": "Follow standard organic lab safety: PPE, fume hood for volatile/corrosive reagents, controlled addition for exothermic steps, and proper waste segregation.",
+      "common_mistakes": [
+        "Ignoring reaction conditions (catalyst, solvent, temperature) when predicting the major product.",
+        "Forgetting chemoselectivity and assuming only one functional group in a molecule will react.",
+        "Not balancing stoichiometry or missing side products such as HX, H₂O, or catalyst-derived byproducts."
+      ],
+      "revision_checklist": [
+        "Identify substrate functional groups and classify reagent role (electrophile, nucleophile, oxidant, reductant).",
+        "State expected product class and major regio/stereo outcome before drawing the full structure.",
+        "Verify required conditions and note key byproducts/safety hazards for the reaction setup."
+      ]
     }
   }
 }

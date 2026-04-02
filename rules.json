@@ -11,7 +11,19 @@
       "example2": {
         "formula": "CH₃-C(CH₃)=CH₂ + HCl → CH₃-C(CH₃)(Cl)-CH₃",
         "desc": "2-methylpropene reacts with HCl. H adds to the =CH₂ end and Cl bonds to the tertiary carbon, giving 2-chloro-2-methylpropane via a stable tertiary carbocation."
-      }
+      },
+      "exam_tip": "Always identify which carbon becomes the more stable carbocation before placing X⁻ in ionic HX addition.",
+      "when_to_apply": "Apply for ionic addition of HX (no peroxides) to unsymmetrical alkenes/alkynes where carbocation stability controls regioselectivity.",
+      "common_mistakes": [
+        "Applying Markovnikov rule under peroxide radical conditions.",
+        "Ignoring carbocation rearrangements in stepwise mechanisms.",
+        "Assigning halide to less substituted carbon in standard HX addition."
+      ],
+      "revision_checklist": [
+        "Check whether reaction is ionic or radical.",
+        "Rank carbocation stability (3° > 2° > 1°).",
+        "Place halide on the more substituted carbon for ionic HX addition."
+      ]
     },
     "anti_markovnikov": {
       "name": "Anti-Markovnikov's Rule",
@@ -24,7 +36,19 @@
       "example2": {
         "formula": "CH₂=CH-CH₂CH₃ + HBr → BrCH₂-CH₂-CH₂CH₃  (hν)",
         "desc": "1-butene under UV light gives 1-bromobutane. The bromine radical adds to the terminal CH₂ and hydrogen adds to the internal carbon."
-      }
+      },
+      "exam_tip": "Look for peroxide/light clues: with HBr + ROOR/hν, bromine ends up on the less substituted carbon.",
+      "when_to_apply": "Use for radical chain addition of HBr to unsymmetrical alkenes under peroxide or photochemical initiation.",
+      "common_mistakes": [
+        "Extending anti-Markovnikov peroxide effect to HCl or HI.",
+        "Forgetting radical stability controls orientation.",
+        "Mixing ionic and radical mechanisms in one answer."
+      ],
+      "revision_checklist": [
+        "Confirm HBr and radical initiator are present.",
+        "Draw bromine-radical addition step first.",
+        "Predict Br at less substituted carbon."
+      ]
     },
     "zaitsev": {
       "name": "Zaitsev's Rule",
@@ -37,7 +61,19 @@
       "example2": {
         "formula": "(CH₃)₃CBr + NaOEt → (CH₃)₂C=CH₂ (major)",
         "desc": "tert-Butyl bromide with sodium ethoxide gives 2-methylpropene as the major Zaitsev product — the most substituted alkene possible."
-      }
+      },
+      "exam_tip": "Small bases and E1/E2 conditions usually favor the more substituted alkene unless steric constraints dominate.",
+      "when_to_apply": "Apply in elimination reactions with small/strong bases or carbocation-mediated elimination where thermodynamic alkene stability dominates.",
+      "common_mistakes": [
+        "Ignoring base size and still forcing Zaitsev outcome.",
+        "Not comparing all possible β-hydrogen elimination sites.",
+        "Confusing kinetic control with thermodynamic control."
+      ],
+      "revision_checklist": [
+        "Identify elimination mechanism (E1 or E2).",
+        "Evaluate substitution level of candidate alkenes.",
+        "Select the most substituted alkene as major when conditions favor Zaitsev."
+      ]
     },
     "hofmann": {
       "name": "Hofmann's Rule",
@@ -50,7 +86,19 @@
       "example2": {
         "formula": "[(CH₃CH₂)₄N]⁺OH⁻ → heat → CH₂=CH₂ (major)",
         "desc": "Hofmann elimination of quaternary ammonium salts always gives the least substituted alkene — the geometry of the reaction enforces this selectivity."
-      }
+      },
+      "exam_tip": "Bulky bases (especially KOtBu) often pull the least hindered β-H, giving Hofmann product.",
+      "when_to_apply": "Use when elimination occurs with bulky bases or in Hofmann elimination of quaternary ammonium salts.",
+      "common_mistakes": [
+        "Predicting Zaitsev product despite clear bulky-base conditions.",
+        "Overlooking steric accessibility of β-hydrogens.",
+        "Forgetting quaternary ammonium eliminations usually give Hofmann products."
+      ],
+      "revision_checklist": [
+        "Check if base is bulky.",
+        "Locate least hindered β-hydrogen.",
+        "Predict less substituted alkene as major product."
+      ]
     },
     "kharasch": {
       "name": "Kharasch Effect",
@@ -63,7 +111,19 @@
       "example2": {
         "formula": "CH₂=CHCH₂CH₃ + HBr → BrCH₂CH₂CH₂CH₃  (hν)",
         "desc": "1-butene under UV light gives 1-bromobutane. The bromine radical adds to the terminal CH₂ and hydrogen adds to the internal carbon."
-      }
+      },
+      "exam_tip": "Treat “Kharasch effect” as anti-Markovnikov radical addition of HBr triggered by peroxide/light.",
+      "when_to_apply": "Apply specifically to peroxide-initiated HBr addition where radical propagation steps control regioselectivity.",
+      "common_mistakes": [
+        "Assuming Kharasch effect is a separate non-radical mechanism.",
+        "Applying it to halogens other than HBr.",
+        "Ignoring chain initiation/propagation logic."
+      ],
+      "revision_checklist": [
+        "Write initiation (ROOR → radicals).",
+        "Write Br• addition to double bond.",
+        "Confirm anti-Markovnikov bromide placement."
+      ]
     },
     "walden": {
       "name": "Walden Inversion",
@@ -76,7 +136,19 @@
       "example2": {
         "formula": "(S)-CH₃CHClCH₂CH₃ + CN⁻ → (R)-CH₃CH(CN)CH₂CH₃",
         "desc": "Cyanide displaces chloride via SN2 on (S)-2-chlorobutane. Backside attack inverts the stereocenter to give the (R)-nitrile product with complete stereospecificity."
-      }
+      },
+      "exam_tip": "For a clean SN2 at a chiral center, explicitly state backside attack and inversion of configuration.",
+      "when_to_apply": "Use for SN2 substitutions on suitable substrates (usually methyl/primary, good leaving group, strong nucleophile).",
+      "common_mistakes": [
+        "Predicting racemization in a pure SN2 reaction.",
+        "Forgetting stereochemical inversion in product assignment.",
+        "Applying SN2 inversion to strongly hindered tertiary centers."
+      ],
+      "revision_checklist": [
+        "Confirm SN2-favorable substrate.",
+        "Draw backside attack trajectory.",
+        "Invert stereochemistry in final product."
+      ]
     },
     "bredt": {
       "name": "Bredt's Rule",
@@ -89,7 +161,19 @@
       "example2": {
         "formula": "Bicyclo[3.3.1]non-1-ene → exists (large enough to allow strain)",
         "desc": "As the ring grows larger, Bredt violations become possible. Bicyclo[3.3.1]non-1-ene has been synthesized — strained but isolable, showing the rule has size-dependent limits."
-      }
+      },
+      "exam_tip": "If an elimination proposes a bridgehead alkene in a small bicyclic system, flag it as disallowed by Bredt’s rule.",
+      "when_to_apply": "Apply to bicyclic elimination/aromaticity questions where double-bond placement at bridgehead is being evaluated.",
+      "common_mistakes": [
+        "Ignoring ring-size constraints on bridgehead planarity.",
+        "Drawing impossible bridgehead π-bond in small bicycles.",
+        "Overgeneralizing prohibition to all large bicyclic systems."
+      ],
+      "revision_checklist": [
+        "Identify bridgehead carbon involvement.",
+        "Estimate bicyclic framework size/strain.",
+        "Reject impossible bridgehead double bond in small systems."
+      ]
     },
     "huckel": {
       "name": "Hückel's Rule",
@@ -102,7 +186,19 @@
       "example2": {
         "formula": "Naphthalene C₁₀H₈ → 10 π electrons (n=2) → Aromatic ✓",
         "desc": "Naphthalene satisfies Hückel's Rule with 10 π electrons. Cyclobutadiene (4 π electrons) is the famous anti-aromatic counterexample — extremely reactive and unstable."
-      }
+      },
+      "exam_tip": "Check all aromaticity criteria in order: cyclic, planar, fully conjugated, then electron count (4n+2).",
+      "when_to_apply": "Use for aromatic/antiaromatic/nonaromatic classification and stability/reactivity comparisons.",
+      "common_mistakes": [
+        "Applying only electron count without planarity/conjugation checks.",
+        "Miscounting lone-pair contribution to π system.",
+        "Treating all cyclic polyenes as aromatic."
+      ],
+      "revision_checklist": [
+        "Verify continuous p-orbital overlap.",
+        "Count total π electrons correctly.",
+        "Apply 4n+2 rule and classify."
+      ]
     },
     "hammond": {
       "name": "Hammond's Postulate",
@@ -115,7 +211,19 @@
       "example2": {
         "formula": "Alkene + H⁺ → 3° carbocation (faster) vs 1° carbocation (slower)",
         "desc": "Protonation of an alkene is endothermic so the TS resembles the carbocation. Tertiary carbocations are more stable → lower TS energy → form faster. This underpins Markovnikov's Rule mechanistically."
-      }
+      },
+      "exam_tip": "Use Hammond to connect intermediate stability with activation barrier trends, especially for endothermic steps.",
+      "when_to_apply": "Apply in mechanism/rate questions comparing transition-state character in exothermic vs endothermic steps.",
+      "common_mistakes": [
+        "Treating transition state as identical to intermediate.",
+        "Reversing early/late TS interpretation.",
+        "Ignoring reaction energetics when applying the postulate."
+      ],
+      "revision_checklist": [
+        "Determine whether step is exothermic or endothermic.",
+        "Assign early vs late TS accordingly.",
+        "Relate intermediate stability to relative activation energy."
+      ]
     },
     "le_chatelier": {
       "name": "Le Chatelier's Principle",
@@ -128,7 +236,19 @@
       "example2": {
         "formula": "N₂ + 3H₂ ⇌ 2NH₃ → high pressure shifts equilibrium right",
         "desc": "In the Haber Process, increasing pressure favours ammonia formation (fewer moles of gas). Removing NH₃ as it forms also shifts equilibrium right — both are direct applications of Le Chatelier's Principle."
-      }
+      },
+      "exam_tip": "In equilibrium problems, always state the disturbance and the direction the system shifts to oppose it.",
+      "when_to_apply": "Use for reversible reactions when concentration, pressure, or temperature changes are introduced.",
+      "common_mistakes": [
+        "Forgetting that only temperature changes the equilibrium constant.",
+        "Confusing rate effects with equilibrium position shifts.",
+        "Ignoring stoichiometric gas mole changes in pressure questions."
+      ],
+      "revision_checklist": [
+        "Identify the external change applied.",
+        "Predict shift direction qualitatively.",
+        "Connect shift to yield/extent of desired product."
+      ]
     }
   }
 }

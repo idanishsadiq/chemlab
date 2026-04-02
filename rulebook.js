@@ -5,6 +5,23 @@ let rulesData = {};
 const grid = document.getElementById('element-grid');
 const combineBtn = document.getElementById('combine-btn');
 
+function setTextById(id, value, fallback = 'Not specified in current database.') {
+    const el = document.getElementById(id);
+    if (el) el.innerText = value || fallback;
+}
+
+function setListById(id, items) {
+    const list = document.getElementById(id);
+    if (!list) return;
+    list.innerHTML = '';
+    const safeItems = Array.isArray(items) && items.length ? items : ['No extra notes yet for this rule.'];
+    safeItems.forEach(item => {
+        const li = document.createElement('li');
+        li.innerText = item;
+        list.appendChild(li);
+    });
+}
+
 fetch('rules.json')
     .then(response => {
         if (!response.ok) {
@@ -77,18 +94,17 @@ if (combineBtn) {
         if (!rule) return;
 
         const reactionName = document.getElementById('reaction-name');
-        const formulaText = document.getElementById('formula-text');
-        const ex1Formula = document.getElementById('ex1-formula');
-        const reactionInfo = document.getElementById('reaction-info');
-        const ex2Formula = document.getElementById('ex2-formula');
-        const reactionFact = document.getElementById('reaction-fact');
-
-        if (reactionName) reactionName.innerText = rule.name;
-        if (formulaText) formulaText.innerText = rule.theory;
-        if (ex1Formula) ex1Formula.innerText = rule.example1.formula;
-        if (reactionInfo) reactionInfo.innerText = rule.example1.desc;
-        if (ex2Formula) ex2Formula.innerText = rule.example2.formula;
-        if (reactionFact) reactionFact.innerText = rule.example2.desc;
+        if (reactionName) reactionName.innerText = rule.name || 'Rule';
+        setTextById('formula-text', rule.theory);
+        setTextById('rule-keypoint', rule.keypoint);
+        setTextById('rule-exam-tip', rule.exam_tip);
+        setTextById('rule-when-to-apply', rule.when_to_apply);
+        setTextById('ex1-formula', rule.example1?.formula);
+        setTextById('reaction-info', rule.example1?.desc);
+        setTextById('ex2-formula', rule.example2?.formula);
+        setTextById('reaction-fact', rule.example2?.desc);
+        setListById('rule-mistakes', rule.common_mistakes);
+        setListById('rule-checklist', rule.revision_checklist);
 
         switchView('result-page');
     };

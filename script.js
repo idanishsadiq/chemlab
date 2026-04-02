@@ -5,6 +5,23 @@ let labData = { elements: [], reactions: {} };
 const grid = document.getElementById('element-grid');
 const combineBtn = document.getElementById('combine-btn');
 
+function setTextById(id, value, fallback = 'Not specified in current database.') {
+    const el = document.getElementById(id);
+    if (el) el.innerText = value || fallback;
+}
+
+function setListById(id, items) {
+    const list = document.getElementById(id);
+    if (!list) return;
+    list.innerHTML = '';
+    const safeItems = Array.isArray(items) && items.length ? items : ['No extra notes yet for this reaction.'];
+    safeItems.forEach(item => {
+        const li = document.createElement('li');
+        li.innerText = item;
+        list.appendChild(li);
+    });
+}
+
 function setStatusMessage(message, isError = false) {
     const existing = document.getElementById('status-message');
     if (existing) existing.remove();
@@ -84,15 +101,16 @@ if (combineBtn) {
         const result = labData.reactions?.[reactionKey];
 
         if (result) {
-            const reactionName = document.getElementById('reaction-name');
-            const formulaText = document.getElementById('formula-text');
-            const info = document.getElementById('reaction-info');
-            const fact = document.getElementById('reaction-fact');
-
-            if (reactionName) reactionName.innerText = result.name;
-            if (formulaText) formulaText.innerText = result.formula;
-            if (info) info.innerText = result.info;
-            if (fact) fact.innerText = result.fact;
+            setTextById('reaction-name', result.name, 'Reaction');
+            setTextById('formula-text', result.formula);
+            setTextById('reaction-info', result.info);
+            setTextById('reaction-fact', result.fact);
+            setTextById('reaction-conditions', result.conditions);
+            setTextById('reaction-mechanism', result.mechanism);
+            setTextById('reaction-applications', result.applications);
+            setTextById('reaction-safety', result.safety);
+            setListById('reaction-mistakes', result.common_mistakes);
+            setListById('reaction-checklist', result.revision_checklist);
 
             switchView('result-page');
         } else {
