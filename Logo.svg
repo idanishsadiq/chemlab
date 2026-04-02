@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">ChemLab Logo</title>
+  <desc id="desc">A blue laboratory flask with a golden liquid and bubbles.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="liq" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="48" fill="url(#bg)" />
+  <path d="M95 44h50v18l-14 24v28l51 77a18 18 0 0 1-15 27H73a18 18 0 0 1-15-27l51-77V86L95 62V44z" fill="#e2e8f0" />
+  <path d="M84 170h72l15 23H69l15-23z" fill="url(#liq)" />
+  <path d="M101 118h38l27 40H74l27-40z" fill="url(#liq)" opacity=".9" />
+  <circle cx="84" cy="138" r="6" fill="#f8fafc" opacity=".9" />
+  <circle cx="152" cy="130" r="5" fill="#f8fafc" opacity=".9" />
+  <circle cx="126" cy="148" r="4" fill="#f8fafc" opacity=".85" />
+</svg>
