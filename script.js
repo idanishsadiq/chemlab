@@ -52,6 +52,17 @@ function updateSourceText() {
     }
 }
 
+function getSourceName(url = '') {
+    try {
+        const hostname = new URL(url).hostname;
+        if (hostname.includes('jsdelivr')) return 'CDN';
+        if (hostname.includes('github')) return 'GitHub';
+        return hostname || 'online source';
+    } catch {
+        return 'online source';
+    }
+}
+
 async function loadLabData() {
     let localData = null;
     let remoteData = null;
@@ -74,18 +85,14 @@ async function loadLabData() {
         }
     }
 
-    if (!localData && remoteData) {
-        const sourceName = successfulRemoteSource.includes('jsdelivr') ? 'CDN' : 'GitHub';
-        dataSourceLabel = `online backup (${sourceName})`;
-    }
-
-    if (localData && remoteData) {
-        dataSourceLabel = 'local database (online backup available)';
-        console.info(`Online backup source available: ${successfulRemoteSource}`);
-    }
-
     if (!localData && !remoteData) {
         throw new Error('Could not load reaction data from local or online sources.');
+    } else if (!localData && remoteData) {
+        const sourceName = getSourceName(successfulRemoteSource);
+        dataSourceLabel = `online backup (${sourceName})`;
+    } else if (localData && remoteData) {
+        dataSourceLabel = 'local database (online backup available)';
+        console.info(`Online backup source available: ${successfulRemoteSource}`);
     }
 
     const base = localData || remoteData;
