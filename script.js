@@ -5,7 +5,6 @@ let dataSourceLabel = 'local';
 
 const grid = document.getElementById('element-grid');
 const combineBtn = document.getElementById('combine-btn');
-const sourceText = document.getElementById('data-source');
 
 const ONLINE_DATA_SOURCES = [
     'https://raw.githubusercontent.com/idanishsadiq/chemlab/main/elements.json',
@@ -28,7 +27,7 @@ function setStatusMessage(message, isError = false) {
 }
 
 async function fetchJsonOrThrow(url) {
-    const response = await fetch(url, { cache: 'no-store' });
+    const response = await fetch(url);
     if (!response.ok) {
         throw new Error(`Failed to load ${url} (${response.status})`);
     }
@@ -47,6 +46,7 @@ function normalizeReactionMap(reactions = {}) {
 }
 
 function updateSourceText() {
+    const sourceText = document.getElementById('data-source');
     if (sourceText) {
         sourceText.textContent = `Data source: ${dataSourceLabel}`;
     }
@@ -55,6 +55,7 @@ function updateSourceText() {
 async function loadLabData() {
     let localData = null;
     let remoteData = null;
+    let successfulRemoteSource = '';
 
     try {
         localData = await fetchJsonOrThrow('elements.json');
@@ -66,11 +67,19 @@ async function loadLabData() {
     for (const url of ONLINE_DATA_SOURCES) {
         try {
             remoteData = await fetchJsonOrThrow(url);
-            dataSourceLabel = localData ? 'local + online backup' : 'online backup';
+            successfulRemoteSource = url;
             break;
         } catch (remoteErr) {
             console.warn(remoteErr);
         }
+    }
+
+    if (!localData && remoteData) {
+        dataSourceLabel = `online backup (${successfulRemoteSource})`;
+    }
+
+    if (localData && remoteData) {
+        console.info(`Online backup source available: ${successfulRemoteSource}`);
     }
 
     if (!localData && !remoteData) {
@@ -78,8 +87,8 @@ async function loadLabData() {
     }
 
     const base = localData || remoteData;
-    const localReactions = normalizeReactionMap(localData?.reactions);
-    const remoteReactions = normalizeReactionMap(remoteData?.reactions);
+    const localReactions = localData ? normalizeReactionMap(localData.reactions) : {};
+    const remoteReactions = remoteData ? normalizeReactionMap(remoteData.reactions) : {};
     const mergedReactions = { ...remoteReactions, ...localReactions };
 
     labData = {
