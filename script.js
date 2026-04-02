@@ -75,10 +75,12 @@ async function loadLabData() {
     }
 
     if (!localData && remoteData) {
-        dataSourceLabel = `online backup (${successfulRemoteSource})`;
+        const sourceName = successfulRemoteSource.includes('jsdelivr') ? 'CDN' : 'GitHub';
+        dataSourceLabel = `online backup (${sourceName})`;
     }
 
     if (localData && remoteData) {
+        dataSourceLabel = 'local database (online backup available)';
         console.info(`Online backup source available: ${successfulRemoteSource}`);
     }
 
