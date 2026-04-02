@@ -9,8 +9,9 @@ Files:
 - rulebook.js: rulebook logic
 - elements.json: reaction data
 - rules.json: rulebook data
-- Logo.png and functional group images: assets used by the pages
+- Logo.svg and functional group images: assets used by the pages
 
 Contact:
 - chemlab.business@gmail.com
 - https://www.instagram.com/ig.chemlab
+- https://www.youtube.com/@yt.chemlab

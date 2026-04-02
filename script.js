@@ -1,9 +1,16 @@
 
 let selectedElements = [];
 let labData = { elements: [], reactions: {} };
+let dataSourceLabel = 'local';
 
 const grid = document.getElementById('element-grid');
 const combineBtn = document.getElementById('combine-btn');
+const sourceText = document.getElementById('data-source');
+
+const ONLINE_DATA_SOURCES = [
+    'https://raw.githubusercontent.com/idanishsadiq/chemlab/main/elements.json',
+    'https://cdn.jsdelivr.net/gh/idanishsadiq/chemlab@main/elements.json'
+];
 
 function setStatusMessage(message, isError = false) {
     const existing = document.getElementById('status-message');
@@ -20,19 +27,75 @@ function setStatusMessage(message, isError = false) {
     combineBtn.parentElement.appendChild(status);
 }
 
-fetch('elements.json')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error(`Failed to load elements.json (${response.status})`);
+async function fetchJsonOrThrow(url) {
+    const response = await fetch(url, { cache: 'no-store' });
+    if (!response.ok) {
+        throw new Error(`Failed to load ${url} (${response.status})`);
+    }
+    return response.json();
+}
+
+function normalizeReactionMap(reactions = {}) {
+    const normalized = {};
+    Object.entries(reactions).forEach(([key, value]) => {
+        const parts = key.split('-');
+        if (parts.length !== 2) return;
+        const normalizedKey = getReactionKey(parts);
+        normalized[normalizedKey] = value;
+    });
+    return normalized;
+}
+
+function updateSourceText() {
+    if (sourceText) {
+        sourceText.textContent = `Data source: ${dataSourceLabel}`;
+    }
+}
+
+async function loadLabData() {
+    let localData = null;
+    let remoteData = null;
+
+    try {
+        localData = await fetchJsonOrThrow('elements.json');
+        dataSourceLabel = 'local database';
+    } catch (localErr) {
+        console.warn(localErr);
+    }
+
+    for (const url of ONLINE_DATA_SOURCES) {
+        try {
+            remoteData = await fetchJsonOrThrow(url);
+            dataSourceLabel = localData ? 'local + online backup' : 'online backup';
+            break;
+        } catch (remoteErr) {
+            console.warn(remoteErr);
         }
-        return response.json();
-    })
-    .then(data => {
-        labData = data;
+    }
+
+    if (!localData && !remoteData) {
+        throw new Error('Could not load reaction data from local or online sources.');
+    }
+
+    const base = localData || remoteData;
+    const localReactions = normalizeReactionMap(localData?.reactions);
+    const remoteReactions = normalizeReactionMap(remoteData?.reactions);
+    const mergedReactions = { ...remoteReactions, ...localReactions };
+
+    labData = {
+        elements: base.elements || [],
+        reactions: mergedReactions
+    };
+}
+
+loadLabData()
+    .then(() => {
+        updateSourceText();
         renderGrid();
     })
     .catch(err => {
         console.error(err);
+        updateSourceText();
         if (grid) {
             grid.innerHTML = '<div class="result-card"><p>Could not load the reaction database.</p></div>';
         }
